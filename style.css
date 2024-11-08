@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label, input, select, button {
+    margin: 10px 0;
+}
+#statusMessage {
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+}
